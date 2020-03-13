@@ -21,21 +21,21 @@
 switch ($_REQUEST['action']) {
 case "+":
         echo ($_POST['FirstNumber']) + ($_POST['SecondNumber']);        
-        break;
+    break;
 
 case "-":
         echo ($_POST['FirstNumber']) - ($_POST['SecondNumber']);
-        break;
+    break;
 
 case "*":
         echo ($_POST['FirstNumber']) * ($_POST['SecondNumber']);
-        break;
+    break;
     
 case"/":
         echo ($_POST['FirstNumber']) / ($_POST['SecondNumber']);
-        break;
+    break;
 
 case "%":
         echo ($_POST['FirstNumber']) % ($_POST['SecondNumber']);
-        break;
+    break;
 }
